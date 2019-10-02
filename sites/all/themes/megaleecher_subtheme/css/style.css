@@ -1,0 +1,634 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+/* line 5, ../sass/style.scss */
+body {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  background-color: #787878;
+}
+
+/* line 9, ../sass/style.scss */
+.container {
+  max-width: 95%;
+  min-width: 95%;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 13, ../sass/style.scss */
+#page {
+  background-color: #fff;
+}
+
+/* line 14, ../sass/style.scss */
+#masthead {
+  height: 143px;
+  background-color: #170808;
+  color: #fff;
+  -webkit-border-top-left-radius: 20px;
+  -webkit-box-shadow: inset 0px 1px 2px 1px #605555;
+  box-shadow: inset 0px 1px 2px 1px #605555;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* line 22, ../sass/style.scss */
+a.name {
+  color: #FFFFFF;
+  font-size: 34px;
+  padding-top: 40px;
+}
+
+/* line 27, ../sass/style.scss */
+.bgbody {
+  background: url(../images/body-bg.png) repeat-x;
+}
+
+/* line 28, ../sass/style.scss */
+#toolbar {
+  float: left;
+}
+
+/* line 29, ../sass/style.scss */
+#suckerfishmenu {
+  /*background: url("/sites/all/themes/litejazz/images/blue/menu-bg.png") repeat-x scroll 0 0 #104A91;*/
+  line-height: 28px;
+}
+
+/* line 34, ../sass/style.scss */
+body .region-content .content > .field-name-body:after {
+  clear: both;
+}
+
+/* line 37, ../sass/style.scss */
+body .region-content .content > .field-name-body:before, .region-content > .field:after {
+  content: " ";
+  display: table;
+}
+
+/* line 41, ../sass/style.scss */
+body .region-content .node .content > .field-name-body:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* line 48, ../sass/style.scss */
+#SmartPlayer_0 {
+  float: none;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 52, ../sass/style.scss */
+#SmartPlayer_0 #adaptvDiv0 {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+/* line 57, ../sass/style.scss */
+a#vdo {
+  width: 100%;
+  height: auto;
+}
+
+/* line 58, ../sass/style.scss */
+#SmartPlayer_0 #adaptvDiv0 object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 64, ../sass/style.scss */
+body .region-content .stButton .stBubble_count {
+  background: -moz-linear-gradient(center top, #d5d5d5 0px, #efefef 48%, white 94%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: 1px solid #CCCCCC;
+  border-radius: 4px 4px 4px 4px;
+  color: #000000;
+  font-family: Verdana,Helvetica,sans-serif;
+  font-size: 18px;
+  height: auto;
+  padding-bottom: 13px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 58px;
+  z-index: -1;
+}
+
+/* line 79, ../sass/style.scss */
+.region-sidebar-first .block, .region-sidebar-second .block {
+  margin-bottom: 30px;
+}
+
+/* line 80, ../sass/style.scss */
+.block.block-block p span span div span {
+  height: auto;
+}
+
+/* line 81, ../sass/style.scss */
+object, img, body iframe {
+  max-width: 100%;
+}
+
+/* line 82, ../sass/style.scss */
+.region-content .center {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+/* line 89, ../sass/style.scss */
+.region-content .content .field-name-body {
+  clear: both;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+/* line 94, ../sass/style.scss */
+.block.block-block {
+  min-width: 100%;
+}
+
+/* line 95, ../sass/style.scss */
+.nav-tabs {
+  width: 100%;
+}
+
+/* line 96, ../sass/style.scss */
+.radio label, .checkbox label {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+/* line 102, ../sass/style.scss */
+object {
+  width: 100%;
+}
+
+/* line 104, ../sass/style.scss */
+.navbar.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* line 110, ../sass/style.scss */
+.region-content .field-type-taxonomy-term-reference:not(:last-of-type) .field-item:not(:last-of-type) > a:after {
+  content: ",\00a0";
+  /*.region-content .field-type-taxonomy-term-reference .field-item.even > a:before {
+    content: "";
+  }*/
+}
+
+/* line 117, ../sass/style.scss */
+.region-highlighted input, aside input {
+  margin: 0 auto;
+}
+
+/* line 118, ../sass/style.scss */
+.region-content {
+  float: none;
+}
+
+/* line 119, ../sass/style.scss */
+.tabs--primary {
+  clear: left;
+}
+
+/* line 120, ../sass/style.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+}
+
+/* line 123, ../sass/style.scss */
+nav .nav > li > a {
+  line-height: .7;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #fff;
+  border-right: 1px solid #999;
+}
+
+/* line 130, ../sass/style.scss */
+.node-sticky {
+  background-color: #eee;
+}
+
+/* line 131, ../sass/style.scss */
+body .navbar {
+  border: 0;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 100;
+  min-height: 30px;
+}
+
+/* line 138, ../sass/style.scss */
+.statistics_counter span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* line 139, ../sass/style.scss */
+body .bgbody .main-container .row {
+  margin-top: 10px;
+}
+
+/* line 140, ../sass/style.scss */
+.navbar-inverse .nav > li > a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 144, ../sass/style.scss */
+.region-content .field-type-taxonomy-term-reference .field-item {
+  float: left;
+}
+
+/* line 145, ../sass/style.scss */
+.region-content .field-type-taxonomy-term-reference {
+  float: none;
+  font-size: 11px;
+  display: inline;
+}
+
+/* line 150, ../sass/style.scss */
+.region-content div fieldset.panel.panel-default .panel-heading {
+  display: none;
+}
+
+/* line 151, ../sass/style.scss */
+body .region-content .input-group {
+  display: inline-block;
+}
+
+/* line 152, ../sass/style.scss */
+.region-content .node h2 a {
+  color: #104A91;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* line 153, ../sass/style.scss */
+.submitted {
+  font-style: normal;
+  color: #104A91;
+  font-size: .8em;
+}
+
+/* line 154, ../sass/style.scss */
+.region-content .field-name-field-image {
+  text-align: center;
+}
+
+/* line 155, ../sass/style.scss */
+.region-content .content .field-name-body {
+  clear: left;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+/* line 156, ../sass/style.scss */
+.navbar-inverse .nav > .active > a, .navbar-inverse .nav > .active > a:hover, .navbar-inverse .nav > .active > a:focus {
+  background-color: rgba(8, 8, 8, 0.5);
+  color: #FFFFFF;
+}
+
+/* line 160, ../sass/style.scss */
+ul, ol {
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-left: 8%;
+}
+
+/* line 165, ../sass/style.scss */
+.navbar-inverse .nav > li > a:hover, .navbar-inverse .nav > li > a:focus {
+  background-color: rgba(8, 8, 8, 0.5);
+  color: #FFFFFF;
+}
+
+/* line 169, ../sass/style.scss */
+.region-content .comment-unpublished {
+  border: 1px solid #ff0000;
+}
+
+/* line 170, ../sass/style.scss */
+.region-content .indented {
+  margin-left: 4%;
+}
+
+/* line 171, ../sass/style.scss */
+.navbar-inverse h2.block-title {
+  display: none;
+}
+
+/* line 172, ../sass/style.scss */
+.footer.container {
+  background-color: #170808;
+  color: #fff;
+  min-height: 54px;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  max-width: 100%;
+  -webkit-border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-top-right-radius: 0;
+  -moz-border-top-left-radius: 0;
+  line-height: 54px;
+}
+
+/* line 187, ../sass/style.scss */
+.footer .region-footer {
+  vertical-align: middle;
+}
+
+/* line 188, ../sass/style.scss */
+.region-footer {
+  text-align: center;
+}
+
+/* line 189, ../sass/style.scss */
+.region-footer a {
+  color: #ADADAD;
+  font-weight: bold;
+}
+
+/* line 190, ../sass/style.scss */
+.block h2.block-title, h3 {
+  margin-top: 0;
+  color: #104A91;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+/* line 196, ../sass/style.scss */
+body .form-type-textfield.form-item-openid-identifier.form-item.form-group {
+  display: none;
+}
+
+/* line 199, ../sass/style.scss */
+aside .well {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 20px;
+  min-height: 20px;
+  padding: 0;
+}
+
+/* line 208, ../sass/style.scss */
+.links.list-inline {
+  color: #104A91;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+/* line 213, ../sass/style.scss */
+ul.inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+
+/* line 218, ../sass/style.scss */
+.comment {
+  border: 1px solid #104A91;
+}
+
+/* line 221, ../sass/style.scss */
+.comment {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+/* line 225, ../sass/style.scss */
+h2, .h2, h1 {
+  font-size: 25px;
+  color: #104A91;
+  font-weight: bold;
+}
+
+/* line 226, ../sass/style.scss */
+a {
+  color: #104A91;
+}
+
+/* line 227, ../sass/style.scss */
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #104A91;
+  border-color: #104A91;
+  color: #FFFFFF;
+  cursor: default;
+  z-index: 2;
+}
+
+/* line 234, ../sass/style.scss */
+.node-teaser {
+  border-bottom: 1px solid #DDDDDD;
+  padding: 0.5em;
+}
+
+/* line 238, ../sass/style.scss */
+.logo {
+  float: left;
+}
+
+/* line 239, ../sass/style.scss */
+.lead {
+  clear: left;
+  float: left;
+  margin-left: 17px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* line 244, ../sass/style.scss */
+.region-sidebar-first #block-search-form {
+  display: none;
+}
+
+/* line 245, ../sass/style.scss */
+.region-sidebar-first #block-system-user-menu {
+  display: none;
+}
+
+/* line 246, ../sass/style.scss */
+.region-sidebar-second .search-sidebar-second {
+  display: block;
+}
+
+/* line 247, ../sass/style.scss */
+.region-sidebar-second #user-login-form {
+  display: block;
+}
+
+/* line 248, ../sass/style.scss */
+.region-sidebar-first #block-user-login {
+  display: none;
+}
+
+/* line 249, ../sass/style.scss */
+.region-sidebar-first #block-apachesolr-search-mlt-001 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 251, ../sass/style.scss */
+  body .nav > li {
+    float: left;
+  }
+
+  /* line 254, ../sass/style.scss */
+  .region-sidebar-first #block-search-form {
+    display: block;
+  }
+
+  /* line 255, ../sass/style.scss */
+  .region-sidebar-first #block-system-user-menu {
+    display: block;
+  }
+
+  /* line 256, ../sass/style.scss */
+  .region-sidebar-first #block-user-login {
+    display: block;
+  }
+
+  /* line 257, ../sass/style.scss */
+  .region-sidebar-first #block-apachesolr-search-mlt-001 {
+    display: block;
+  }
+
+  /* line 258, ../sass/style.scss */
+  body .user-login-second {
+    display: none;
+  }
+
+  /* line 259, ../sass/style.scss */
+  body .search-sidebar-second {
+    display: none;
+  }
+
+  /* line 260, ../sass/style.scss */
+  a.name {
+    color: #FFFFFF;
+    font-size: 45px;
+    padding-top: 40px;
+  }
+
+  /* line 265, ../sass/style.scss */
+  .navbar-inverse {
+    background: #555;
+    border-color: #080808;
+  }
+
+  /* line 270, ../sass/style.scss */
+  .region.region-sidebar-second {
+    font-size: 10px;
+  }
+
+  /* line 273, ../sass/style.scss */
+  .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 0 1%;
+    vertical-align: top;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 281, ../sass/style.scss */
+  .region.region-sidebar-second {
+    font-size: 13px;
+  }
+
+  /* line 284, ../sass/style.scss */
+  .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 1px;
+    vertical-align: top;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 294, ../sass/style.scss */
+  .navbar-inverse {
+    background: url("/sites/all/themes/megaleecher_subtheme/images/menu-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #080808;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    display: block;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+
+  /* line 307, ../sass/style.scss */
+  .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    border-top: 1px solid #DDDDDD;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+  }
+
+  /* line 313, ../sass/style.scss */
+  body .nav > li {
+    float: left;
+  }
+}
+
+/* Custom CSS*/
+.region-content .comment-form fieldset.collapsible {
+  float: left;
+  position: relative;
+  display: block;
+  width:100%;
+}
+
+body .region-content .comment-form div fieldset.panel.panel-default .panel-heading {
+display:block;
+width:100%;
+}
+body .comment-form div .panel-collapse.collapse.fade {
+display:block;
+}
+
+.comment-form div .form-item.form-item-subject.form-type-textfield.form-group {
+  clear: both;
+  display: block;
+}

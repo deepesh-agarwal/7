@@ -1,0 +1,41 @@
+#primary a {
+  border-right: none;
+  border-left: #999 solid 1px;
+}
+
+#primary a:hover,
+#primary a.active {
+  border-right: none;
+  border-left: #999 solid 1px;
+}
+
+#secondary li a {
+  color: white;
+  background: url(../images/red/menu-div.png) 0 0 repeat-y;
+}
+
+
+/* box */
+.boxborder {
+  background:url(../images/red/box-right.gif) 100% 0 repeat-y;
+}
+
+.bi {
+  background:url(../images/red/box-left.gif) 0 0 repeat-y;
+}
+
+.bt {
+  background:url(../images/red/box.gif) 0 0 no-repeat;
+}
+
+.bt div {
+  background:url(../images/red/box.gif) 100% 0 no-repeat;
+}
+
+.bb {
+  background:url(../images/red/box.gif) 0 100% no-repeat;
+}
+
+.bb div {
+  background:url(../images/red/box.gif) 100% 100% no-repeat;
+}

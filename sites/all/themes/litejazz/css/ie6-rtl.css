@@ -1,0 +1,34 @@
+#squeeze {
+  float: right;
+  display: inline;
+  overflow: hidden;
+}
+
+#main {
+  overflow: hidden;
+  display: inline;
+}
+
+#sidebar-left, #sidebar-right {
+  overflow: hidden;
+  display: inline;
+}
+
+body.sidebar-left #main {
+  position: relative;
+}
+
+body.sidebar-right #main {
+  position: relative;
+}
+
+body.sidebars #main {
+  position: relative;
+}
+
+#primarymenu ul {
+  float:none;
+}
+#secondarymenu ul {
+  float:none;
+}
